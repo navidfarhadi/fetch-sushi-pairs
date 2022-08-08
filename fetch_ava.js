@@ -9,12 +9,9 @@ let all_tokens = tokenlist.TOKENS;
 
 let chain_id = 43114; 
 let chain_name = "Avalanche";
-// 56 for BSC
-// 43114 for Avalanche
 var cntr = 0;
 var record_number = 0;
-// var stream = fs.createWriteStream(`pairs-of-${chain_name}.md`);
-// stream.once('open', function(){});
+
 append_to_file('Counter | Network | Symbol A | Name | Decimals | Address | Symbol B | Name | Decimals | Address | PairAddress \n');
 append_to_file('--- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- \n');
 
@@ -36,14 +33,12 @@ all_tokens.forEach((token_a, i) => {
                                 `| 0x${pair.substring(26)} \n`;
                         console.log(record);
                         append_to_file(record);
-                        // stream.write(record);
                     }
                 }
             }
         }
     })
 });
-// stream.end();
 
 function get_pair(token_a, token_b) {
     let tokens = `0xe6a43905000000000000000000000000${token_a}000000000000000000000000${token_b}`;
