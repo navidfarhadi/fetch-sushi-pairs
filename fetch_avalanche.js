@@ -46,16 +46,7 @@ function get_pair(token_a, token_b) {
     let res = fetch("https://api.avax.network/ext/bc/C/rpc", {
     "headers": {
         "accept": "*/*",
-        "accept-language": "en-US,en;q=0.9,fa-IR;q=0.8,fa;q=0.7",
-        "content-type": "application/json",
-        "sec-ch-ua": "\".Not/A)Brand\";v=\"99\", \"Google Chrome\";v=\"103\", \"Chromium\";v=\"103\"",
-        "sec-ch-ua-mobile": "?0",
-        "sec-ch-ua-platform": "\"Windows\"",
-        "sec-fetch-dest": "empty",
-        "sec-fetch-mode": "cors",
-        "sec-fetch-site": "cross-site",
-        "Referer": "https://www.bscscan.com/",
-        "Referrer-Policy": "origin-when-cross-origin"
+        "content-type": "application/json"
     },
     "body": `{\"jsonrpc\":\"2.0\",\"id\":12,\"method\":\"eth_call\",\"params\":[{\"from\":\"0x0000000000000000000000000000000000000000\",\"data\":\"${tokens}\",\"to\":\"${factory_id}\"},\"latest\"]}`,
     "method": "POST"
