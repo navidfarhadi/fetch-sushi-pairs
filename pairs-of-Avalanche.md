@@ -1,7 +1,5 @@
 Counter | Network | Symbol A | Name | Decimals | Address | Symbol B | Name | Decimals | Address | PairAddress 
 --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- 
-Counter | Network | Symbol A | Name | Decimals | Address | Symbol B | Name | Decimals | Address | PairAddress 
---- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- 
 1 | Avalanche | AAVE | Aave Token | 18 | 0x63a72806098Bd3D9520cC43356dD78afe5D386D9 | DAI | Dai Stablecoin | 18 | 0xd586E7F844cEa2F87f50152665BCbc2C279D8d70 | 0x865e0fdb87175ba6f5e8e8b0a07c75bb193f1d07 
 2 | Avalanche | AAVE | Aave Token | 18 | 0x63a72806098Bd3D9520cC43356dD78afe5D386D9 | WAVAX | Wrapped AVAX | 18 | 0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7 | 0x5fbe35bf97f54ec7ca95edbc8dfaeb21514739a7 
 3 | Avalanche | AAVE | Aave Token | 18 | 0x63a72806098Bd3D9520cC43356dD78afe5D386D9 | WETH | Wrapped Ether | 18 | 0x49D5c2BdFfac6CE2BFdB6640F4F80f226bc10bAB | 0x0ca0ff7eaae72faab1df7e1a1c0afcf7d0a68dfd 
