@@ -1,4 +1,4 @@
-select $1 as Counter, $2 as Network, $3 as SymbolA, $4 as Name, $5 as Decimals, $6 as Address, $7 as SymbolB, $8 as Name, $9 as Decimals, $10 as Address, $11 as PairAddress from
+select $1 as "Counter", $2 as "Network", $3 as "Symbol_A", $4 as "Name_A", $5 as "Decimals_A", $6 as "Address_A", $7 as "Symbol_B", $8 as "Name_B", $9 as "Decimals_B", $10 as "Address_B", $11 as "Pair_Address" from
 ( values
 ('1', 'Avalanche', 'AAVE', 'Aave Token', '18', '0x63a72806098Bd3D9520cC43356dD78afe5D386D9', 'DAI', 'Dai Stablecoin', '18', '0xd586E7F844cEa2F87f50152665BCbc2C279D8d70', '0x865e0fdb87175ba6f5e8e8b0a07c75bb193f1d07'),
 ('2', 'Avalanche', 'AAVE', 'Aave Token', '18', '0x63a72806098Bd3D9520cC43356dD78afe5D386D9', 'WAVAX', 'Wrapped AVAX', '18', '0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7', '0x5fbe35bf97f54ec7ca95edbc8dfaeb21514739a7'),

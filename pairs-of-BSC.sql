@@ -1,4 +1,4 @@
-select $1 as Counter, $2 as Network, $3 as SymbolA, $4 as Name, $5 as Decimals, $6 as Address, $7 as SymbolB, $8 as Name, $9 as Decimals, $10 as Address, $11 as PairAddress from
+select $1 as "Counter", $2 as "Network", $3 as "Symbol_A", $4 as "Name_A", $5 as "Decimals_A", $6 as "Address_A", $7 as "Symbol_B", $8 as "Name_B", $9 as "Decimals_B", $10 as "Address_B", $11 as "Pair_Address" from
 ( values
 ('1', 'BSC', 'ADA', 'Cardano Token', '18', '0x3EE2200Efb3400fAbB9AacF31297cBdD1d435D47', 'ALPHA', 'AlphaToken', '18', '0xa1faa113cbE53436Df28FF0aEe54275c13B40975', '0x395fd232ce4c76e4af9f92560e0403087e4e6db4'),
 ('2', 'BSC', 'ADA', 'Cardano Token', '18', '0x3EE2200Efb3400fAbB9AacF31297cBdD1d435D47', 'ANKR', 'Ankr', '18', '0xf307910A4c7bbc79691fD374889b36d8531B08e3', '0xc57add512fb1bf26c876a4eccffec08525237e17'),

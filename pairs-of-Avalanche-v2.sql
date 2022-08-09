@@ -1,4 +1,4 @@
-select $1 as Counter, $2 as Network, $3 as PairName, $4 as PairSymbol, $5 as PairDecimals, $6 as Token0, $7 as Token1, $8 as PairAddress from 
+select $1 as "Counter", $2 as "Network", $3 as "Pair_Name", $4 as "Pair_Symbol", $5 as "Pair_Decimals", $6 as "Token_0", $7 as "Token_1", $8 as "Pair_Address" from 
 ( values
 ('1', 'Avalanche', 'SushiSwap LP Token', 'SLP', '18', '0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7', '0xf20d962a6c8f70c731bd838a3a388d7d48fa6e15', '0xe5dc9c75d4514a5a7fe370e636560699ba83c702'),
 ('2', 'Avalanche', 'SushiSwap LP Token', 'SLP', '18', '0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7', '0xb3fe5374f67d7a22886a0ee082b2e2f9d2651651', '0xaec2becb0711b263c665f1bc813c1f53f97c991a'),
