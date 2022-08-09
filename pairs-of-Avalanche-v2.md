@@ -130,3 +130,6 @@ Counter | Network | PairName | PairSymbol | PairDecimals | Token0 | Token1 | Pai
 128 | Avalanche | SushiSwap LP Token | SLP | 18 | 0x0fc6bed37833fcc6381b36e7ef7534be8029a9c3 | 0xbe217b06d3233d56938aa2a8cd1ac728c9dc848a | 0x5b55e9fddcb1d8717dd84cc7721419bdfa63dd32 
 129 | Avalanche | SushiSwap LP Token | SLP | 18 | 0x0fc6bed37833fcc6381b36e7ef7534be8029a9c3 | 0x5e7bd0a28da3f84fad28617959d82d64e1239800 | 0x6ba26c5d46c94d372c8abbcfdc673571c6c6dd1e 
 130 | Avalanche | SushiSwap LP Token | SLP | 18 | 0x49d5c2bdffac6ce2bfdb6640f4f80f226bc10bab | 0xb97ef9ef8734c71904d8002f8b6bc66dd9c48a6e | 0xd57a18913f6b7e96225f9ba317f4249663df29ce 
+131 | Avalanche | SushiSwap LP Token | SLP | 18 | 0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7 | 0xdfc930a10177944a05ae598fba37c82f4c589b6d | 0xc6ddb9718720fa3755672c40b55a5b9d5977eee8 
+132 | Avalanche | SushiSwap LP Token | SLP | 18 | 0x5e7bd0a28da3f84fad28617959d82d64e1239800 | 0xbe217b06d3233d56938aa2a8cd1ac728c9dc848a | 0x47d67c86a1f5b91e8455f84170b068df704f3b26 
+133 | Avalanche | SushiSwap LP Token | SLP | 18 | 0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7 | 0xc1fc15b9eec1a4efd80202cb3d8fed72dc1ed3e9 | 0xe2d437b507b8d57c8e1b6a99a244bb778a16089c 
