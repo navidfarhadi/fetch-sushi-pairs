@@ -2,7 +2,7 @@
   "name": "pair_getter",
   "version": "1.0.0",
   "type": "module",
-  "description": "",
+  "description": "This is a simple part of code to get all addresses for all Swap pairs on Avalanche and BSC for sushi with the given addresses of the two tokens belonging to each pair.",
   "main": "fetch.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -12,6 +12,15 @@
   "dependencies": {
     "esm": "^3.2.25",
     "node-fetch": "^2.2.10",
-    "sync-fetch": "^0.4.1"
-  }
+    "sync-fetch": "^0.4.1",
+    "web3": "^1.7.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/navidfarhadi/fetch-sushi-pairs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/navidfarhadi/fetch-sushi-pairs/issues"
+  },
+  "homepage": "https://github.com/navidfarhadi/fetch-sushi-pairs#readme"
 }
