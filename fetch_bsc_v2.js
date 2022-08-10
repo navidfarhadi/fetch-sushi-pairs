@@ -19,10 +19,10 @@ let chain_name = "BSC";
 var cntr = 0;
 var record_number = 0;
 
-append_to_file('Counter | Network | PairName | PairSymbol | PairDecimals | Token0 | Token1 | PairAddress \n');
-append_to_file('--- | --- | --- | --- | --- | --- | --- | --- \n');
+// append_to_file('Counter | Network | PairName | PairSymbol | PairDecimals | Token0 | Token1 | PairAddress \n');
+// append_to_file('--- | --- | --- | --- | --- | --- | --- | --- \n');
 
-for(var i = 0; i < 1621; i++) {
+for(var i = 0; i < 656; i++) {
     console.log(i);
     var pair = get_pair(i);
     console.log(pair);
